@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37011e335bd6fd47941e5e3f2d60e3d, type: 3}
+  m_Name: items
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    name: Excalibur Sword
+    description: Mining PINK diamond twice time in sequence will get the Sword of
+      King Arthur.
+    gem: 3
+    sprite: {fileID: 21300000, guid: 1d503ab12188a1643b2859747300db06, type: 3}
+  - id: 2
+    name: Talaria Shoes
+    description: Mining BLACK diamond twice time in sequence will get the Hermes's
+      shoes.
+    gem: 3
+    sprite: {fileID: 21300000, guid: ecc2204e3dd86d7409c10ec60d43a9f5, type: 3}
+  - id: 3
+    name: Pickaxe
+    description: Mining the GREEN diamond twice time in sequence will get the Pickaxe.
+    gem: 4
+    sprite: {fileID: 21300000, guid: 055d1f38cf5782848a9e2cbcf7f553e8, type: 3}
+  - id: 4
+    name: Targo Shield
+    description: Mining faster with helping from power of Targo Shield.
+    gem: 5
+    sprite: {fileID: 21300000, guid: 0ec47f38e5cfc5847bc15c7c34a3819d, type: 3}
+  - id: 5
+    name: 0
+    description: Buy items to archive higher score.
+    gem: 0
+    sprite: {fileID: 21300000, guid: 09256f9abbea03148855764f4e4e8d66, type: 3}
