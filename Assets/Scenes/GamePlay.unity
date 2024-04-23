@@ -9401,6 +9401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NewHighScorePopup
       objectReference: {fileID: 0}
+    - target: {fileID: 153682, guid: 982466e47a7a0b445aa37f151a31707f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 22456806, guid: 982466e47a7a0b445aa37f151a31707f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
