@@ -11,8 +11,15 @@ public class PlayerData : BaseData
     public int choosingMap;
     public List<MapRecord> mapUnlocks;
 
-    public float time;
+    public long time;
     public string timeRegister;
+
+    public void SetTimeRegister(long timeSet)
+    {
+        timeRegister = DateTime.Now.ToBinary().ToString();
+        time = timeSet;
+        Save();
+    }
 
     public bool isRate;
 
